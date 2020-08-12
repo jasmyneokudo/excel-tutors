@@ -1,0 +1,61 @@
+.section-about{
+
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -20vh;
+}
+
+.section-features{
+
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom, #fcbde6b6, #fc14ab) , 
+        url('../img/kids.jpg');
+        background-size: cover;
+    
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+
+    &>*{
+        transform: skewY(7deg);
+    }
+
+}
+
+
+.section-courses{
+    background-color: $color-grey-light-1;
+    margin-top: -10rem;
+
+    padding: 25rem 0 15rem 0;
+}
+
+.section-stories{
+    padding: 15rem 0;
+    position: relative;
+}
+
+.section-book{
+    padding:15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+
+}
+
+.book{
+    background-image: linear-gradient(105deg,
+     rgba($color-grey-white, .9) 0%,
+     rgba($color-grey-white, .9) 50%,
+     transparent 50%), 
+     url(../../img/happy_children.jpg);
+    background-size: cover;
+    // transform: scaleX(-1);
+    border-radius: 3px;
+    background-position: right;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    height: 50rem;
+
+    &__form{
+        width: 50%;
+        padding: 6rem;
+    }
+}
