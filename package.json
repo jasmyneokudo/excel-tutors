@@ -4,6 +4,7 @@
   "description": "landing page for excel tutors",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Jasmyne Okudo",
